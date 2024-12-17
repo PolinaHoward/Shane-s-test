@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Shane</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Boyfriend material test</h1>
+
+    <div id="quiz-container">
+      <div class="question">
+        <p>1. What’s my favorite color?</p>
+        <button onclick="checkAnswer(1, 'a')">a) Pastel pink</button>
+        <button onclick="checkAnswer(1, 'b')">b) Blue</button>
+        <button onclick="checkAnswer(1, 'c')">c) Black</button>
+      </div>
+      <div class="question">
+        <p>2. What’s my favorite snack?</p>
+        <button onclick="checkAnswer(2, 'a')">a) Chocolate</button>
+        <button onclick="checkAnswer(2, 'b')">b) Popcorn</button>
+        <button onclick="checkAnswer(2, 'c')">c) Chips</button>
+      </div>
+      <div class="question">
+        <p>3. What's my favorite movie?</p>
+        <button onclick="checkAnswer(3, 'a')">a) Pulp Fiction</button>
+        <button onclick="checkAnswer(3, 'b')">b) Léon</button>
+        <button onclick="checkAnswer(3, 'c')">c) Shutter Island</button>
+      </div>
+      <div class="question">
+        <p>4. Where do I dream of traveling?</p>
+        <button onclick="checkAnswer(4, 'a')">a) Japan</button>
+        <button onclick="checkAnswer(4, 'b')">b) Italy</button>
+        <button onclick="checkAnswer(4, 'c')">c) Norway</button>
+      </div>
+      <div class="question">
+        <p>5. What's my favorite Leo Tolstoy book?</p>
+        <button onclick="checkAnswer(5, 'a')">a) The Devil</button>
+        <button onclick="checkAnswer(5, 'b')">b) Anna Karenina</button>
+        <button onclick="checkAnswer(5, 'c')">c) War and Peace</button>
+      </div>
+      <div class="question">
+        <p>6. What’s my favorite movie or TV show?</p>
+        <button onclick="checkAnswer(6, 'a')">a) Desperate Housewives</button>
+        <button onclick="checkAnswer(6, 'b')">b) Sex and the City</button>
+        <button onclick="checkAnswer(6, 'c')">c) You</button>
+      </div>
+      <div class="question">
+        <p>7. What’s my favorite drink?</p>
+        <button onclick="checkAnswer(7, 'a')">a) Tequila Sunrise</button>
+        <button onclick="checkAnswer(7, 'b')">b) White Russian</button>
+        <button onclick="checkAnswer(7, 'c')">c) Blackberry Smash</button>
+      </div>
+      <div class="question">
+        <p>8. What’s my favorite Russian band?</p>
+        <button onclick="checkAnswer(8, 'a')">a) RSAC</button>
+        <button onclick="checkAnswer(8, 'b')">b) My</button>
+        <button onclick="checkAnswer(8, 'c')">c) Svidanie</button>
+      </div>
+    </div>
+
+    <div class="result" id="result">
+      <p>Your Score: <span id="score"></span></p>
+      <p id="message"></p>
+    </div>
+
+    <div class="heart"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

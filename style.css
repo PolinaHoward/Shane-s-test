@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background-color: #ffe4e1;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.question {
+  margin: 20px 0;
+}
+.result {
+  display: none;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.heart {
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+  transform: rotate(-45deg);
+  position: relative;
+}
+
+.heart::before, 
+.heart::after {
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart::before {
+  top: -25px;
+  left: 0px;
+}
+
+.heart::after {
+  left: 25px;
+  top: 0px;
+}
